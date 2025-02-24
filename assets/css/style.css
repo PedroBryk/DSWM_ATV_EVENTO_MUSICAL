@@ -1,0 +1,111 @@
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    background-color: #034A62;
+
+}
+
+.cabecalho{
+    padding: .5%;
+    text-align: center;
+ 
+}
+
+.titulo__principal, .subtitulo{
+    margin: 0; 
+    padding: .2%;
+
+}
+
+.titulo__principal{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    color: #D1F3FF;
+}
+
+.subtitulo{
+    color: #D1F3FF;
+}
+
+.subtitulo a{
+    text-decoration: none;
+    color: #D1F3FF;
+}
+
+.main__text{
+    color: #D1F3FF;
+}
+
+img{
+    width: 100vw;
+    height: 90vh;
+    
+}
+
+.video__promocional, .tabela__programacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+.video__promocional article{
+    width: 50%;
+    padding: .5%;
+}
+
+.tabela__programacao article{
+    width: 50%;
+    padding: 5%;
+}
+
+audio{
+    margin-top: 2%;
+    
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    color: #D1F3FF;
+}
+
+th, td {
+    border: 1px solid #D1F3FF;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #D1F3FF;
+    color: black;
+}
+
+.buy__tickets{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2%;
+    color: #D1F3FF;
+}
+
+button{
+    width: 200px;
+    background-color: #D1F3FF;
+    border-radius: 10px;
+    border: solid #69818a;
+    cursor: pointer;
+}
